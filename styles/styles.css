@@ -1,11 +1,28 @@
-h1 {
+.banner {
+    text-align: left;
+    color: rgb(192, 202, 199);
+    
+    font-family:'Times New Roman', Times, serif;
+    padding: 40px 0px 10px 10px;
+    
+    border-style: solid;
+    border-color: rgb(192, 202, 199);
+    border-width: 0px 0px 10px 0px;
+    background-image: url('http://vignette3.wikia.nocookie.net/starwars/images/6/67/Star_Wars_Galaxy_of_Heroes_logo.png/revision/latest?cb=20151110043437');
+
+    background-color: black;
+                        }
+.banner-image {
+    width: 500px;
     text-align: center;
-    color: blue;
+}
+.login {
+    text-align: right;
 }
 img {
     display: block;
     margin: 0 auto;
 }
 html {
-    background-color: black;
+    background-color: white;
 }
